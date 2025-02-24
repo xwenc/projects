@@ -1,7 +1,7 @@
 // src/pages/ProjectList.jsx
 
 import ProjectCard from "../components/ProjectCard";
-
+import P1 from "@assets/p1.png";
 const projects = [
   {
     name: "Dapp Deposit",
@@ -15,14 +15,15 @@ const projects = [
       "Real-time System Design",
     ],
     link: "https://dapp-deposit-2ll.pages.dev",
+    img: P1,
   },
   // Add more projects...
 ];
 
 const ProjectList = () => {
   return (
-    <div className="container mx-auto p-6 max-w-4xl">
-      <div className="flex justify-between items-center mb-6">
+    <div className="container mx-auto md:p-6 max-w-4xl">
+      <div className="space-y-4 my-4 md:flex justify-between items-center">
         <h1 className="text-3xl font-bold text-gray-900">
           Andy Xiong's Project Experience
         </h1>
