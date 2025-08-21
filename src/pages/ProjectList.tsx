@@ -2,6 +2,7 @@
 
 import ProjectCard from "../components/ProjectCard";
 import P1 from "@assets/p1.png";
+import P2 from "@assets/p2.png";
 const projects = [
   {
     name: "Dapp Deposit",
@@ -16,6 +17,20 @@ const projects = [
     ],
     link: "https://dapp-deposit-2ll.pages.dev",
     img: P1,
+  },
+  {
+    name: "Solana Game ",
+    description:
+      "A decentralized game built on the Solana blockchain.",
+    techStack: ["Solana", "Rust", "React", "Tailwind CSS"],
+    skills: [
+      "Game Development",
+      "Blockchain Integration",
+      "Frontend Development",
+      "Smart Contract Development",
+    ],
+    link: "https://gamba-client.vercel.app",
+    img: P2,
   },
   // Add more projects...
 ];
