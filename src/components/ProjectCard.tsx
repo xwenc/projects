@@ -12,7 +12,7 @@ interface Project {
 
 const ProjectCard: React.FC<{ project: Project }> = ({ project }) => {
   return (
-    <div className='flex flex-col-reverse md:flex-row bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow overflow-hidden'>
+    <div className='flex flex-col-reverse md:flex-row bg-white border border-gray-200 rounded-lg hover:shadow-lg transition-shadow overflow-hidden mt-4'>
     <div className="p-4 md:p-6 flex-1">
       <h3 className="text-xl font-bold text-gray-800 mb-2">{project.name}</h3>
       <p className="text-gray-600 mb-3">{project.description}</p>
