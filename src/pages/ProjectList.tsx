@@ -75,7 +75,7 @@ const ProjectList = () => {
         </div>
       </div>
       <p className="text-gray-700 mb-6">
-        Below are some representative projects demo in blockchain development and web
+        Below are some representative projects demonstrating my skills in blockchain development and web
         development. Feel free to review and discuss them!
       </p>
       {projects.map((project, index) => (
