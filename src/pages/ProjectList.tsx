@@ -19,15 +19,15 @@ const projects = [
     img: P1,
   },
   {
-    name: "Solana Game ",
+    name: "Solana Deposit and Withdrawal demo",
     description:
-      "A decentralized game built on the Solana blockchain.",
+      "A decentralized application for depositing and withdrawing funds on the Solana blockchain.",
     techStack: ["Solana", "Rust", "React", "Tailwind CSS"],
     skills: [
-      "Game Development",
       "Blockchain Integration",
       "Frontend Development",
       "Smart Contract Development",
+      "Supabase Integration"
     ],
     link: "https://gamba-client.vercel.app",
     img: P2,
@@ -75,7 +75,7 @@ const ProjectList = () => {
         </div>
       </div>
       <p className="text-gray-700 mb-6">
-        Below are some representative projects in blockchain development and web
+        Below are some representative projects demo in blockchain development and web
         development. Feel free to review and discuss them!
       </p>
       {projects.map((project, index) => (
